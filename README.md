@@ -9,17 +9,17 @@ This repository is going to host the code I've written for events where I've tau
 My goal is to provide resources and information that is always free to use. Learning is a right, and especially if you're learning through the library system, every resources made available to you shouldn't be paywalled. I will aim to list costs or stipulations should they be relevant, but overwhelmingly, I want to focus on providing free content for all.
 
 ### Table of Contents
-[Circuit Playground](https://github.com/varsvisualizes/creative-coding-classes#circuit-playground)
-[Creative Coding Club](https://github.com/varsvisualizes/creative-coding-classes#creative-coding-club)
-[NaNoWriMo Prompt Generator](https://github.com/varsvisualizes/creative-coding-classes#nanowrimo-prompt-generator)
-[Web Design 101](https://github.com/varsvisualizes/creative-coding-classes#web-design-101)
-[Resources](https://github.com/varsvisualizes/creative-coding-classes)
+* [Circuit Playground](https://github.com/varsvisualizes/creative-coding-classes#circuit-playground)
+* [Creative Coding Club](https://github.com/varsvisualizes/creative-coding-classes#creative-coding-club)
+* [NaNoWriMo Prompt Generator](https://github.com/varsvisualizes/creative-coding-classes#nanowrimo-prompt-generator)
+* [Web Design 101](https://github.com/varsvisualizes/creative-coding-classes#web-design-101)
+* [Resources](https://github.com/varsvisualizes/creative-coding-classes)
 
 
 # Circuit Playground
 In 2022, I borrowed 4 Circuit Playground Bluefruits through SEFLIN. I ran a couple of physical computing programs during the summer, teaching the kids how to use CircuitPython. I think I also ran one session teaching Arduino.
 
-I've also used the Circuit Playground for outreach - see more at [the Prizewheel repo](https://github.com/varsvisualizes/circuitplayground-prizewheel).
+I've also used the Circuit Playground for outreach - see more at [the Prizewheel repo](https://github.com/varsvisualizes/circuitplayground-prizewheel). I even used them for events, like [I Read Dead People](https://github.com/varsvisualizes/i-read-dead-people-props).
 
 For libraries looking to access the Circuit Playgrounds, please get in touch with SEFLIN regarding their use. Let them know that the last time they were used was at the Acreage Branch Library.
 
@@ -46,11 +46,23 @@ More snow-themed work: using snowflakes, the kids learned about fractals in math
 
 ### January 2024: Computer Vision
 
-This session used the ml5 library in combination with p5.js. I using a few [CodingTrain videos](https://www.youtube.com/watch?v=h8tk0hmWB44&list=PLRqwX-V7Uu6aG2RJHErXKSWFDXU4qo_ro) to understand PoseNet, plus [documentation from their page](https://learn.ml5js.org/#/reference/posenet) and [examining Maya Mann's samples](https://googlecreativelab.github.io/posenet-sketchbook/). 
+This session used the ml5 library and a computer vision library in combination with p5.js. I using a few [CodingTrain videos](https://www.youtube.com/watch?v=h8tk0hmWB44&list=PLRqwX-V7Uu6aG2RJHErXKSWFDXU4qo_ro) to understand PoseNet, plus [documentation from their page](https://learn.ml5js.org/#/reference/posenet), [examining Maya Mann's samples](https://googlecreativelab.github.io/posenet-sketchbook/), and [a PowerPoint from the University of Waterloo](https://student.cs.uwaterloo.ca/~cs105/W20_content/lectures/22_Video_and_Sound.pdf). 
 
 ### February 2024: Text-to-Speech
+
+This was my event with the most sign-ups, but I was sick so I couldn't host it :') Thankfully, my team sent an email to the attendees containing the materials I planned to go over. I hadn't had the chance to make a more personalized sketch, but I plan to do one myself and upload it in here. I'll note it here when I do!
+
+I was going to use the [p5.js Speech library](https://idmnyu.github.io/p5.js-speech/), with [this handy-dandy example](https://editor.p5js.org/hao/sketches/8OhA3cn1J) as the basis for my sample sketch. As always, [CodingTrain had a video to follow along with](https://www.youtube.com/watch?app=desktop&v=v0CHV33wDsI) - he doesn't use the web editor, but the coding concepts are all the same, so you can follow along and modify using the sample sketch linked.
+
+I think it would be fun to make a sketch combining the Speech-to-Text feature with PoseNet, so that as you speak, the words appear on the palm of your hand / in your mouth directly / etc.
+
 ### March 2024: DIY Controller
+
+More to be posted when the event happens this week!
+
 ### April 2024: Poetry Generator
+
+More to be posted as I prepare for this event!
 
 # NaNoWriMo Prompt Generator
 For NaNoWriMo 2022, I ran a virtual workshop walking attendees through creating a prompt generator. My prototype used lines from musicals I was obsessed with at the time. (and still today, honestly, but at this very moment I've chilled out the slightest bit)
@@ -98,10 +110,11 @@ Check out this handy PDF I created for reference!
 
 * Learning
   * Udemy
-    * Free with a library card
+    * Free with a library card!
+    * I like Angela Yu's 100 Days of Full-Stack Development, and 100 Days of Python :)
   * CodeAcademy
-   * Listed in the library's resource page, but much of the content is paywalled - I'm not sure if a library account is available for this site
-  * freeCodeCamp
+   * Listed in the library's resource page, but much of the content is paywalled - I'm not sure if a library account is available for this site??
+  * [freeCodeCamp](https://www.freecodecamp.org/)
 * Doing
   * [VS Code Text Editor](https://code.visualstudio.com/)
     * I download this software so I can use the Live Server extension - that way I can see my work as I update it!
@@ -114,7 +127,7 @@ Check out this handy PDF I created for reference!
  * [sadgrl.online personal webpage things](https://goblin-heart.net/sadgrl/projects/)
  * [JavaScript Neko pet](https://webneko.net/)
  * Circuit Playground Express + Crochet Skills = [DIY DDR Mat](https://www.youtube.com/shorts/4NJ3nWqSJL4)
- * The Arduino Uno tutorials I followed to get started in physical computing
+ * [The Arduino Uno tutorials I followed to get started in physical computing](https://learn.adafruit.com/experimenters-guide-for-metro/intro)
  * [Maya Mann](https://www.mayaontheinter.net/), because I kind of love her
  * [Tigris Li](https://tigris.li/Work), with whom I am also obsessed
  * [Simone Giertz](https://www.simonegiertz.com/), the roboticist who really started it all for me

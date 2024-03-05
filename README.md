@@ -32,7 +32,7 @@ I set up laptop computers with the [p5.js editor](https://editor.p5js.org/) from
 
 In this repo I have sample codes that I'd present to the class. We would follow some or all of one example, depending on how quickly we were getting through material. Some of the examples are more complicated than what I would teach, but more made to show the kids what's possible. To run the codes yourself, simply copy & paste the script into the p5.js editor. Delete any of the template stuff that's already there (the empty 'setup' and 'draw' functions) and paste the code in the file.
 
-### [December 2020: Snowman Animation](December 2020 Snowcode.zip)
+### [December 2020: Snowman Animation](creative-coding-classes/December 2020 Snowcode.zip)
 
 Before the creative coding club, there were one-off coding classes. My very first one was hosted virtually, and it was an animated snowman. You can wave his arm using your mouse.
 

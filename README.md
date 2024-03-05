@@ -32,19 +32,19 @@ I set up laptop computers with the [p5.js editor](https://editor.p5js.org/) from
 
 In this repo I have sample codes that I'd present to the class. We would follow some or all of one example, depending on how quickly we were getting through material. Some of the examples are more complicated than what I would teach, but more made to show the kids what's possible. To run the codes yourself, simply copy & paste the script into the p5.js editor. Delete any of the template stuff that's already there (the empty 'setup' and 'draw' functions) and paste the code in the file.
 
-### December 2020: Snowman Animation
+### [December 2020: Snowman Animation](December 2020 Snowcode.zip)
 
 Before the creative coding club, there were one-off coding classes. My very first one was hosted virtually, and it was an animated snowman. You can wave his arm using your mouse.
 
-### September 2023: Generative Art
+### [September 2023: Generative Art](September 2023 Generative Art)
 
 The first in-person creative coding club, as it's known today. I took inspiration from 5 artists and created interactive art based on their geometric styles, with an explanation on how digital artwork can be generative. This is best seen with the Bridget Riley works.
 
-### December 2023: Fractals
+### [December 2023: Fractals](December 2023 Fractals)
 
 More snow-themed work: using snowflakes, the kids learned about fractals in mathematics in nature. This code also incentivized learning how changing paramters changed the shape, so there was plenty of room for experimentation. 
 
-### January 2024: Computer Vision
+### [January 2024: Computer Vision](January 2024 Computer Vision)
 
 This session used the ml5 library and a computer vision library in combination with p5.js. I using a few [CodingTrain videos](https://www.youtube.com/watch?v=h8tk0hmWB44&list=PLRqwX-V7Uu6aG2RJHErXKSWFDXU4qo_ro) to understand PoseNet, plus [documentation from their page](https://learn.ml5js.org/#/reference/posenet), [examining Maya Mann's samples](https://googlecreativelab.github.io/posenet-sketchbook/), and [a PowerPoint from the University of Waterloo](https://student.cs.uwaterloo.ca/~cs105/W20_content/lectures/22_Video_and_Sound.pdf). 
 
@@ -65,7 +65,7 @@ More to be posted when the event happens this week!
 More to be posted as I prepare for this event!
 
 # NaNoWriMo Prompt Generator
-For NaNoWriMo 2022, I ran a virtual workshop walking attendees through creating a prompt generator. My prototype used lines from musicals I was obsessed with at the time. (and still today, honestly, but at this very moment I've chilled out the slightest bit)
+For NaNoWriMo 2022, I ran a virtual workshop walking attendees through creating a prompt generator. [My prototype](November 2022 NaNoWriMo Prompt Generator.zip) used lines from musicals I was obsessed with at the time. (and still today, honestly, but at this very moment I've chilled out the slightest bit)
 
 At this time, I was using OpenProcessing as the editor. It's also free, but I don't get the same side-by-side viewing as I do with the native p5.js editor. The upside is that it automatically fills up the full page, which is a nice effect, I think.
 

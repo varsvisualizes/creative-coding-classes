@@ -32,25 +32,25 @@ I set up laptop computers with the [p5.js editor](https://editor.p5js.org/) from
 
 In this repo I have sample codes that I'd present to the class. We would follow some or all of one example, depending on how quickly we were getting through material. Some of the examples are more complicated than what I would teach, but more made to show the kids what's possible. To run the codes yourself, simply copy & paste the script into the p5.js editor. Delete any of the template stuff that's already there (the empty 'setup' and 'draw' functions) and paste the code in the file.
 
-### [December 2020: Snowman Animation](creative-coding-classes/December 2020 Snowcode.zip)
+### December 2020: Snowman Animation
 
 Before the creative coding club, there were one-off coding classes. My very first one was hosted virtually, and it was an animated snowman. You can wave his arm using your mouse.
 
-### [September 2023: Generative Art](September 2023 Generative Art)
+### September 2023: Generative Art
 
 The first in-person creative coding club, as it's known today. I took inspiration from 5 artists and created interactive art based on their geometric styles, with an explanation on how digital artwork can be generative. This is best seen with the Bridget Riley works.
 
-### [December 2023: Fractals](December 2023 Fractals)
+### December 2023: Fractals
 
 More snow-themed work: using snowflakes, the kids learned about fractals in mathematics in nature. This code also incentivized learning how changing paramters changed the shape, so there was plenty of room for experimentation. 
 
-### [January 2024: Computer Vision](January 2024 Computer Vision)
+### January 2024: Computer Vision
 
 This session used the ml5 library and a computer vision library in combination with p5.js. I using a few [CodingTrain videos](https://www.youtube.com/watch?v=h8tk0hmWB44&list=PLRqwX-V7Uu6aG2RJHErXKSWFDXU4qo_ro) to understand PoseNet, plus [documentation from their page](https://learn.ml5js.org/#/reference/posenet), [examining Maya Mann's samples](https://googlecreativelab.github.io/posenet-sketchbook/), and [a PowerPoint from the University of Waterloo](https://student.cs.uwaterloo.ca/~cs105/W20_content/lectures/22_Video_and_Sound.pdf). 
 
 ### February 2024: Text-to-Speech
 
-This was my event with the most sign-ups, but I was sick so I couldn't host it :') Thankfully, my team sent an email to the attendees containing the materials I planned to go over. I hadn't had the chance to make a more personalized sketch, but I plan to do one myself and upload it in here. I'll note it here when I do!
+This was my event with more sign-ups than my previous ones, but I was sick so I couldn't host it :') Thankfully, my team sent an email to the attendees containing the materials I planned to go over. I hadn't had the chance to make a more personalized sketch, but I plan to do one myself and upload it in here. I'll note it here when I do!
 
 I was going to use the [p5.js Speech library](https://idmnyu.github.io/p5.js-speech/), with [this handy-dandy example](https://editor.p5js.org/hao/sketches/8OhA3cn1J) as the basis for my sample sketch. As always, [CodingTrain had a video to follow along with](https://www.youtube.com/watch?app=desktop&v=v0CHV33wDsI) - he doesn't use the web editor, but the coding concepts are all the same, so you can follow along and modify using the sample sketch linked.
 
@@ -58,7 +58,39 @@ I think it would be fun to make a sketch combining the Speech-to-Text feature wi
 
 ### March 2024: DIY Controller
 
-More to be posted when the event happens this week!
+This event was a two-parter: Part 1 used the Makey-Makeys in conjunction with MakeCode Arcade, and part 2 used the Circuit Playground with Arduino and p5.js.
+
+I don't have much documentation on part 1 because it's pretty easy to hit the ground running with the resources available on both the Makey-Makey site and the MakeCode site. Check some of those links out here:
+
+* [A video tutorial](https://www.youtube.com/watch?v=3K84iHRFQ8w) showing how to use both Scratch and MakeCode
+* [Making a controller with Play-Doh](https://makeymakey.com/blogs/how-to-instructions/create-a-controller-to-plug-and-play-1)
+* [Connecting the Makey-Makey to MakeCode Arcade](https://makeymakey.com/blogs/how-to-instructions/getting-started-with-microsoft-makecode-arcade)
+
+Part 2 is where things get interesting. This is because the p5.js, being browser-based, doesn't want to just allow anything to take control of the page. You'll need to use the p5.serial library to make the connection. [I found the instructions here helpful](https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-serial-input-to-the-p5-js-ide/), but I'll break them down to their relevant parts below.
+
+Here is your order of operations:
+
+1. Download the [Arduino IDE](https://www.arduino.cc/en/software) and [p5.serial app](https://github.com/p5-serial/p5.serialcontrol/releases/tag/0.1.2)
+2. Plug in your Circuit Playgruond and upload the Arduino code. Take note of which port connects to the Circuit Playground (for example, mine is COM3)
+3. Make sure that the serial monitor on your Arduino IDE is closed
+4. Open up the p5.serial app and select the port that connects to your Circuit Playground
+5. Go on editor.p5.js and open up a sketch (or [practice with the one I've already made](https://editor.p5js.org/varsvisualizes/sketches/zQEjGcGlP))
+6a. IF USING MY SKETCH: Edit line 19 so that your port is within the quotation marks. So it should be serial.open('YOUR COM HERE'), like how mine is serial.open('COM3')
+6b. IF MAKING A FRESH SKETCH: Copy and paste the code chunk generated by the p5.serial app, which automatically inputs your port in the code.
+7. Run the p5.js sketch and tap the A4, A2, A3, and A5 capacitive touch pads on the Circuit Playground. Your dot should move around the screen!
+
+You can change which touchpad do what by editing this code chunk in the Arduino sketch: 
+
+```
+  int left = CircuitPlayground.readCap(A4);
+  int right = CircuitPlayground.readCap(A2);
+  int up = CircuitPlayground.readCap(A3);
+  int down = CircuitPlayground.readCap(A1);
+```
+
+Just make the changes you want, save the sketch, re-upload it to the Circuit Playground, and you should be good to go.
+
+[Here is a breakdown on what each of the touchpads are designated for](https://learn.adafruit.com/adafruit-circuit-playground-bluefruit/pinouts), so you can better understand what you can and can't map. [This video](https://www.youtube.com/watch?v=AXbMM8rbhq8) created for the [Social Body Lab's Textile Game Controller Jam](https://github.com/socialbodylab/Textile-Game-Controller-Jam/tree/master) was the inspiration for making the p5.js sketch.
 
 ### April 2024: Poetry Generator
 
@@ -126,9 +158,11 @@ Check out this handy PDF I created for reference!
 
  * [sadgrl.online personal webpage things](https://goblin-heart.net/sadgrl/projects/)
  * [JavaScript Neko pet](https://webneko.net/)
- * Circuit Playground Express + Crochet Skills = [DIY DDR Mat](https://www.youtube.com/shorts/4NJ3nWqSJL4)
+ * Circuit Playground Express + Crochet Skills = [DIY Dance Dance Revolution Mat](https://www.youtube.com/shorts/4NJ3nWqSJL4)
  * [The Arduino Uno tutorials I followed to get started in physical computing](https://learn.adafruit.com/experimenters-guide-for-metro/intro)
  * [Maya Mann](https://www.mayaontheinter.net/), because I kind of love her
  * [Tigris Li](https://tigris.li/Work), with whom I am also obsessed
  * [Simone Giertz](https://www.simonegiertz.com/), the roboticist who really started it all for me
  * [Wearable robotics](https://urbanarmor.org/)
+ * [KOBAKANT DIY](https://www.kobakant.at/DIY/)
+ * [My dream home decor](https://youtube.com/shorts/43BV6Us-Deo?si=8DMUiDg84jvEjrG9)

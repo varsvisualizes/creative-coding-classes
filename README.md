@@ -113,7 +113,9 @@ At this time, I was using OpenProcessing as the editor. It's also free, but I do
 # Web Design 101
 In March 2024 I hosted my first in-person coding class for adults. The aim was to create a 1-paged website, drawing inspiration from [freeCodeCamp's Responsive Web Design course](https://www.freecodecamp.org/learn/2022/responsive-web-design/). You can see [my sample webpage here](https://varsvisualizes.github.io/mr-whiskers/).
 
-Full disclosure: I majorly overshot what could be accomplished in an hour. Our webpages really turned out something like this: (picture to come, lol)
+Full disclosure: I majorly overshot what could be accomplished in an hour. Our webpages really turned out something like this:
+
+![mySite2_sample](https://github.com/varsvisualizes/creative-coding-classes/assets/47091936/5f51e9da-e059-4210-8e73-7b93dfb2fddf)
 
 Initially, I felt disappointed that I couldn't help my class achieve the full vision I'd had in mind. However, for the attendees, it was - for the most part - their true first time coding anything, ever. That alone makes the outcome wildly special. They've jumped the hurdle of not knowing anything: now they know they can learn to code, because they've got the proof. My hope is that they will continue to grow and make even cooler things in the future.
 

@@ -45,17 +45,27 @@ There may be codes where you'll need a library. I'll aim to provide those setup 
 
 Before the creative coding club, there were one-off coding classes. My very first one was hosted virtually, and it was an animated snowman. You can wave his arm using your mouse.
 
+![Snowcode](https://github.com/varsvisualizes/creative-coding-classes/assets/47091936/c5a76138-fc46-4860-9122-24af3c9bb012)
+
 ### September 2023: Generative Art
 
-The first in-person creative coding club, as it's known today. I took inspiration from 5 artists and created interactive art based on their geometric styles, with an explanation on how digital artwork can be generative. This is best seen with the Bridget Riley works.
+The first in-person creative coding club, as it's known today. I took inspiration from 5 artists and created interactive art based on their geometric styles, with an explanation on how digital artwork can be generative - actions taken can generate a new artwork, like clicking or moving the mouse.
+
+![Hilma af Klint - Explosion _ 3D](https://github.com/varsvisualizes/creative-coding-classes/assets/47091936/8f2e5bca-cb9a-4dbb-b20e-2d13b7b3bc31)
 
 ### December 2023: Fractals
 
 More snow-themed work: using snowflakes, the kids learned about fractals in mathematics in nature. This code also incentivized learning how changing paramters changed the shape, so there was plenty of room for experimentation. 
 
+![fractal_basic](https://github.com/varsvisualizes/creative-coding-classes/assets/47091936/62bda7ab-a2fd-40f0-a01b-589fe322eda3)
+
+
 ### January 2024: Computer Vision
 
 This session used the ml5 library and a computer vision library in combination with p5.js. I using a few [CodingTrain videos](https://www.youtube.com/watch?v=h8tk0hmWB44&list=PLRqwX-V7Uu6aG2RJHErXKSWFDXU4qo_ro) to understand PoseNet, plus [documentation from their page](https://learn.ml5js.org/#/reference/posenet), [examining Maya Mann's samples](https://googlecreativelab.github.io/posenet-sketchbook/), and [a PowerPoint from the University of Waterloo](https://student.cs.uwaterloo.ca/~cs105/W20_content/lectures/22_Video_and_Sound.pdf). 
+
+![rat_shoulder](https://github.com/varsvisualizes/creative-coding-classes/assets/47091936/d69f8ec5-463f-4c42-95f7-8420b7d3741a)
+
 
 ### February 2024: Text-to-Speech
 

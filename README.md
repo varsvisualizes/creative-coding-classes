@@ -170,10 +170,15 @@ I created a PDF for easily referencing functions in CircuitPython - check it out
   * CodeAcademy
     * Listed in the library's resource page, but much of the content is paywalled - I'm not sure if a library account is available for this site??
   * [freeCodeCamp](https://www.freecodecamp.org/)
+  * [Kaggle](https://www.kaggle.com/learn)
 * Doing
   * [VS Code Text Editor](https://code.visualstudio.com/)
     * I download this software so I can use the Live Server extension - that way I can see my work as I update it!
   * [CodePen](https://codepen.io/)
+* Practice Prompts & Challenges
+  *   [Frontend Mentor](https://www.frontendmentor.io/)
+  *   [Frontend Practice](https://www.frontendpractice.com/)
+  *   [CSS Zen Garden](https://csszengarden.com/)
 
  ## Miscellanea
 
@@ -184,8 +189,11 @@ I created a PDF for easily referencing functions in CircuitPython - check it out
  * Circuit Playground Express + Crochet Skills = [DIY Dance Dance Revolution Mat](https://www.youtube.com/shorts/4NJ3nWqSJL4)
  * [The Arduino Uno tutorials I followed to get started in physical computing](https://learn.adafruit.com/experimenters-guide-for-metro/intro)
  * [Maya Man](https://www.mayaontheinter.net/), because I kind of love her
- * [Tigris Li](https://tigris.li/Work), with whom I am also obsessed
+ * [Tigris Li](https://tigris.li/), with whom I am also obsessed
  * [Simone Giertz](https://www.simonegiertz.com/), the roboticist who really started it all for me
  * [Wearable robotics](https://urbanarmor.org/)
  * [KOBAKANT DIY](https://www.kobakant.at/DIY/)
+ * [More soft-circuit glee](https://www.instructables.com/Beginning-Soft-Circuits/)
  * [My dream home decor](https://youtube.com/shorts/43BV6Us-Deo?si=8DMUiDg84jvEjrG9)
+ * [Neocities](https://neocities.org/), where your very own website can live.
+ * [32-Bit Cafe](https://32bit.cafe/), some of the coolest people on the web.

@@ -183,7 +183,7 @@ I created a PDF for easily referencing functions in CircuitPython - check it out
  * [JavaScript Neko pet](https://webneko.net/)
  * Circuit Playground Express + Crochet Skills = [DIY Dance Dance Revolution Mat](https://www.youtube.com/shorts/4NJ3nWqSJL4)
  * [The Arduino Uno tutorials I followed to get started in physical computing](https://learn.adafruit.com/experimenters-guide-for-metro/intro)
- * [Maya Mann](https://www.mayaontheinter.net/), because I kind of love her
+ * [Maya Man](https://www.mayaontheinter.net/), because I kind of love her
  * [Tigris Li](https://tigris.li/Work), with whom I am also obsessed
  * [Simone Giertz](https://www.simonegiertz.com/), the roboticist who really started it all for me
  * [Wearable robotics](https://urbanarmor.org/)

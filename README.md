@@ -62,7 +62,7 @@ More snow-themed work: using snowflakes, the kids learned about fractals in math
 
 ### January 2024: Computer Vision
 
-This session used the ml5 library and a computer vision library in combination with p5.js. I using a few [CodingTrain videos](https://www.youtube.com/watch?v=h8tk0hmWB44&list=PLRqwX-V7Uu6aG2RJHErXKSWFDXU4qo_ro) to understand PoseNet, plus [documentation from their page](https://learn.ml5js.org/#/reference/posenet), [examining Maya Mann's samples](https://googlecreativelab.github.io/posenet-sketchbook/), and [a PowerPoint from the University of Waterloo](https://student.cs.uwaterloo.ca/~cs105/W20_content/lectures/22_Video_and_Sound.pdf). 
+This session used the ml5 library and a computer vision library in combination with p5.js. I using a few [CodingTrain videos](https://www.youtube.com/watch?v=h8tk0hmWB44&list=PLRqwX-V7Uu6aG2RJHErXKSWFDXU4qo_ro) to understand PoseNet, plus [documentation from their page](https://learn.ml5js.org/#/reference/posenet), [examining Maya Man's samples](https://googlecreativelab.github.io/posenet-sketchbook/), and [a PowerPoint from the University of Waterloo](https://student.cs.uwaterloo.ca/~cs105/W20_content/lectures/22_Video_and_Sound.pdf). 
 
 ![rat_shoulder](https://github.com/varsvisualizes/creative-coding-classes/assets/47091936/d69f8ec5-463f-4c42-95f7-8420b7d3741a)
 
